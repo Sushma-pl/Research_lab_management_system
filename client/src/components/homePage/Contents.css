@@ -1,0 +1,39 @@
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 10px 15px rgba(30, 30, 30, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+.card-header h2 {
+  text-align: center;
+}
+@media (max-width: 1400px) and (min-width: 1104px) {
+  .card-header h2 {
+    font-size: 1.5em !important;
+  }
+}
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 45px rgba(4, 4, 4, 0.2);
+}
+.card-footer {
+  text-align: right;
+}
+.card a {
+  color: black;
+}
+.card-body p:not(:last-child) {
+  padding-bottom: 3%;
+  border-bottom: 1px solid #b1b1b1;
+}
+@media (max-width: 728px) {
+  .card {
+    height: 200px;
+  }
+}
+.place-holder-nav-bar {
+  color: rgba(119, 209, 225, 0); /* nobody change opacity from 0 to anything else!! */
+}

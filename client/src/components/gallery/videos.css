@@ -1,0 +1,57 @@
+/* just for codepen display */
+videos {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 1em 0 0.5em 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 26.25px;
+}
+h4 {
+  font-size: 22.5px;
+}
+h5 {
+  font-size: 18.75px;
+}
+p {
+  margin: 0 0 1rem 0;
+}
+ul,
+ol {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+.aks-container {
+  width: 90vw;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-weight: 300;
+  line-height: 120%;
+  margin: 20px 0;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  text-align: center;
+}

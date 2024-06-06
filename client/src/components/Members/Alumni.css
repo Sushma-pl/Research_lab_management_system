@@ -1,0 +1,124 @@
+
+.alumni-team .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 15px;
+  }
+  
+  .alumni-team .member .alumni-teampic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+  }
+  
+  .alumni-team .member .member-info {
+  padding-left: 30px;
+  }
+  
+  .alumni-team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: rgb(172, 27, 140);
+  }
+  
+  .alumni-team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+  }
+  
+  .alumni-team .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+  }
+  
+  .alumni-team .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  }
+  
+  .alumni-team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  
+  .alumni-team .member .social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+  }
+  
+  .alumni-team .member .social a i {
+  color: rgb(172, 27, 140);
+  font-size: 16px;
+  margin: 0 2px;
+  }
+  
+  .alumni-team .member .social a:hover {
+  background: rgb(172, 27, 140);
+  }
+  
+  .alumni-team .member .social a:hover i {
+  color: #fff;
+  }
+  
+  .alumni-team .member .social a+a {
+  margin-left: 8px;
+  }
+  
+  section {
+  padding: 60px 0;
+  overflow: hidden;
+  }
+  
+  
+  
+  .alumni-title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  }
+  
+  .alumni-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 31px;
+  position: relative;
+  color: rgb(172, 27, 140);
+  }
+  
+  .underline{
+      width: 150px;
+      height: 1px;
+      background-color: black;
+      margin: auto;
+      margin-top: -30px;
+  }
+ 
+  .alumni-title p {
+  margin-top: 20px;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }

@@ -1,0 +1,140 @@
+
+.visitorteam .visitor {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(22, 47, 35, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    }
+    
+    .visitorteam .visitor .visitorpic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+    }
+  
+    .styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgb(6, 13, 109);
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .styled:hover {
+        background-color: rgb(177, 159, 159);
+    }
+    
+    .styled:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+    
+    .visitorteam .visitor .visitor-info {
+    padding-left: 30px;
+    }
+    
+    .visitorteam .visitor h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(39, 17, 235);
+    }
+    
+    .visitorteam .visitor span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+    }
+    
+    .visitorteam .visitor span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: rgb(21, 1, 1);
+    bottom: 0;
+    left: 0;
+    }
+    
+    .visitorteam .visitor p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    }
+    
+    .visitorteam .visitor .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    
+    .visitorteam .visitor .social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+    }
+    
+    .visitorteam .visitor .social a i {
+    color: rgb(38, 11, 209);
+    font-size: 16px;
+    margin: 0 2px;
+    }
+    
+    .visitorteam .visitor .social a:hover {
+    background: tomato;
+    }
+    
+    .visitorteam .visitor .social a:hover i {
+    color: #fff;
+    }
+    
+    .visitorteam .visitor .social a+a {
+    margin-left: 8px;
+    }
+    
+    section {
+    padding: 60px 0;
+    overflow: hidden;
+    }
+    
+    
+    
+    .vsection-title {
+    text-align: center;
+    padding-bottom: 30px;
+    }
+    
+    .vsection-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: rgb(70, 58, 120);
+    }
+    
+    .underline{
+        width: 150px;
+        height: 1px;
+        background-color: rgb(27, 2, 2);
+        margin: auto;
+        margin-top: -30px;
+    }
+   
+    .vsection-title p {
+    margin-top: 20px;
+    }

@@ -1,0 +1,24 @@
+.homepage {
+  background-image: url("components/homePage/images/background.jpg");
+}
+
+@media (min-width: 768px)
+{
+  .mx-6 {
+  padding-top: 3rem;
+  margin-left: 10rem !important;
+  margin-right: 10rem !important;
+}
+}
+@media (max-width: 900px) {
+    .mx-6 {
+      padding-top: 2rem;
+      margin-left:0;
+      margin-right: 0;
+    }
+
+}
+
+* {
+  box-sizing: border-box;
+}
